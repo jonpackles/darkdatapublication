@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'GT-Super-Text-Black';
+  src: url('../fonts/GT-Super-Text-Black.woff2') format('woff2'),
+       url('../fonts/GT-Super-Text-Black.woff') format('woff'),
+       url('../fonts/GT-Super-Text-Black.ttf') format('truetype');
+}
+
+.navigation {
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+
+h1, h2, h3, h4 {
+	font-family: 'GT-Super-Text-Black', cursive;
+}
+
+
+nav {
+	 font-size: .8em;
+}
+
+/* PUBLICATION TITLE */
+h1 {
+	margin-bottom: 0px;
+	font-size: 24pt;
+	transition: color 0.3s ease;
+
+}
+
+
+h1:hover {
+	color: rgba(0,0,0,0);
+
+   	transition: color 0.7s ease;
+
+
+}
+
+.mainTitle a {
+
+	font-size: 24pt;
+	transition: color 0.7s ease;
+	transition: -webkit-text-stroke-color .6s ease;
+	transition: -webkit-text-stroke-width .6s ease;
+
+}
+
+.mainTitle a:hover {
+
+	color: rgba(0,0,0,0);
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   transition: color .6s ease;
+
+
+
+
+}
+
+/* ARTICLE TITLES */
+h2 { 
+	font-size: 50px;
+
+}
+
+/* ARTICLE SUBTITLES */
+h4 {
+	font-size: 26px;
+/*	font-family: 'IBM Plex Mono', monospace*/
+}
+
+/* AUTHOR NAMES */
+h3 {
+	font-size: 23px;
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+/* TABLE OF CONTENTSS */
+/* AUTHOR NAMES */
+h5 {
+	font-size: 16pt;
+	font-family: 'IBM Plex Mono', monospace;
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+h6 {
+	font-size: 12pt;
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+/* ARTICLE BODY */
+.articleArea p {
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+}
+
+
+.articleArea li {
+	padding-left: 40px;
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+
+/* CALLOUTS */
+
+.articleArea p .callout {
+
+	font-style: italic;
+	/*font-family: 'GT-Super-Text-Black';*/
+	font-size: 24px;
+
+}
+
+h6.inArticleTitle {
+	margin-top:60px;
+	border-top: 1px solid white;
+	padding-top: 20px;
+	font-style: italic;
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 24px;
+	
+}
+
+.center {
+	text-align: center !important;
+}

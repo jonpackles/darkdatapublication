@@ -1,0 +1,113 @@
+.parent{
+    position: relative;
+}
+.over-img{
+    position: absolute;
+top:5px;
+right: 40px;
+}
+
+
+#hours{
+  margin-top: 135px;
+}
+body {
+
+   font-family: 'Ubuntu', sans-serif;
+
+/*   font-family: 'Karla', sans-serif;*/
+   
+  /*  font-size: 1px;*/
+    letter-spacing: .20em;
+/*background-color: black;*/
+background-image:url(main.png);
+
+   
+    color: white;
+    line-height: 2em;
+    width: 10000px;
+    height: 1000px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+/*    z-index: -2;*/
+}
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.2em;
+ 
+}
+
+#intro {
+  margin-top: 52px;
+}
+.section {
+  margin-left: 150px; 
+ 
+  margin-top: 160px;
+  width: 600px;
+  float: left;
+  height: 100%;
+}
+
+
+
+
+/*.section h2 {
+  margin: 50px 0px 30px 50px;
+}
+
+.section p {
+  margin: 20px 0px 0px 50px;
+  width: 600px;
+}
+
+.black {
+  color: #ffffff;
+ 
+}
+
+.white {
+  color: #ffffff;
+  
+}
+
+.section ul {
+  list-style: none;
+  margin: 20px 0px 0px 550px;
+}
+
+.black ul li {
+  float: left;
+  padding: 5px;
+  margin: 5px;
+  color: #ffffff;
+}
+
+.black ul li a {
+  display: block;
+  color: #ffffff;
+}
+
+.black ul li a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.white ul li {
+  float: left;
+  padding: 5px;
+  margin: 5px;
+  color: #ffd330;
+}
+
+.white ul li a {
+  display: block;
+  color: #ffd330;
+}
+
+.white ul li a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}*/
